@@ -8,9 +8,9 @@
       "esModuleInterop": true,
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
-      "moduleResolution": "node",
+      "moduleResolution": "node"
     },
-    "include": ["src/**/*.ts", "src/key.mjs"],
+    "include": ["src/**/*.ts"],
     "exclude": ["node_modules"]
   }
   
