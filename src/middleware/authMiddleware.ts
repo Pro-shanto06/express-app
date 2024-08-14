@@ -7,7 +7,7 @@ interface JwtPayload {
   key: string;
 }
 
-export const jwtToken = async (req: Request, res: Response, next: NextFunction) => {
+export const authToken = async (req: Request, res: Response, next: NextFunction) => {
   const authHeader = req.headers.authorization;
   const token = authHeader?.split(' ')[1];
 

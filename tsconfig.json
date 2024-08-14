@@ -9,7 +9,7 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
     },
-    "include": ["src/**/*.ts"],
+    "include": ["src/**/*.ts", "src/key.mjs"],
     "exclude": ["node_modules"]
   }
   
