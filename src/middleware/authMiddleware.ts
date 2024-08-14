@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
-import jwt from 'jsonwebtoken';
 import Key from '../models/authKeyModel';
 import { config } from '../config/config';
+import * as jwt from 'jsonwebtoken';
 
 interface JwtPayload {
   key: string;
