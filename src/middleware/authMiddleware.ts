@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
+var mongoose = require('mongoose')
 import Key from '../models/authKeyModel';
 import { config } from '../config/config';
 

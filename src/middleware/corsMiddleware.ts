@@ -1,4 +1,4 @@
-import cors from 'cors';
+var cors = require('cors')
 
 const corsOptions = {
   origin: 'http://localhost:4000', 
