@@ -1,4 +1,4 @@
-var jwt = require('jsonwebtoken')
+let jwt = require('jsonwebtoken')
 import { config } from '../config/config';
 import AuthKey from '../models/authKeyModel';
 
