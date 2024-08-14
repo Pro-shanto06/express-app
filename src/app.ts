@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import corsMiddleware from './middleware/corsMiddleware';
 import helloWorldRoutes from './routes/helloWorldRoutes';
-import axios from 'axios';
+// import axios from 'axios';
 import rateLimiter from './middleware/rateLimitMiddleware';
 
 const app = express();
