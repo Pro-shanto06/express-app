@@ -1,5 +1,4 @@
-import * as mongoose from 'mongoose';
-import { Document, Schema } from 'mongoose';
+import mongoose, { Document, Schema } from 'mongoose';
 
 export interface IAuthKey extends Document {
   key: string;
